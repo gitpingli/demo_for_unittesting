@@ -48,6 +48,10 @@ const mochaMain = new Mocha({
     }
 }); */
 
+setTimeout(() => {
+    process.exit()
+}, 10000);
+
 // run tests
 try {
   mochaMain.files = [
