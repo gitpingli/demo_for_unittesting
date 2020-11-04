@@ -1,0 +1,94 @@
+{
+  "name": "@console/console-core-service-sherpa",
+  "version": "1.219.0",
+  "description": "Sherpa API",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "before",
+      "after",
+      "beforeEach",
+      "afterEach",
+      "it",
+      "assert"
+    ],
+    "ignore": [
+      "nacl.js",
+      "mockData/"
+    ]
+  },
+  "dependencies": {
+    "@console/egg-swagger-doc": "^2.2.5",
+    "@influxdata/influxdb-client": "^1.4.0",
+    "async": "^3.1.0",
+    "@reportportal/agent-js-mocha": "^5.0.0",
+    "mocha": "^7.0.1",
+    "bignumber.js": "^9.0.0",
+    "blakejs": "^1.1.0",
+    "egg": "^2.15.1",
+    "egg-cors": "^2.2.3",
+    "egg-jwt": "^3.1.7",
+    "egg-logger": "^2.4.1",
+    "egg-scripts": "^2.11.0",
+    "egg-sequelize": "^5.2.1",
+    "egg-socket.io": "^4.1.6",
+    "egg-validate": "^1.0.0",
+    "lodash": "^4.17.15",
+    "mockjs": "^1.1.0",
+    "moment": "^2.24.0",
+    "pg": "^7.18.2",
+    "pg-hstore": "^2.3.3",
+    "qlc.js": "0.0.7",
+    "sequelize-cli": "^5.5.1",
+    "socket.io": "^2.3.0",
+    "tweetnacl": "^1.0.3",
+    "uuid-random": "^1.3.0"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.5.1",
+    "factory-girl": "^5.0.4",
+    "mocha-junit-reporter": "^2.0.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "npm run db:migrate && egg-scripts start --title=console-core-service-sherpa",
+    "stop": "egg-scripts stop --title=console-core-service-sherpa",
+    "dev": "npm run db:migrate && egg-bin dev",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test2": "node main.js && exit 0",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov --nyc=\"--temp-directory ./node_modules/.nyc_output -r json-summary -r json -r cobertura\"",
+    "lint": "npx standard",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod",
+    "db:migrate": "npx sequelize db:migrate",
+    "publish:after": "git push && git push --tags",
+    "publish:before": "npm run lint -- --fix",
+    "publish:major": "npm run publish:before && npm version major && npm run publish:after",
+    "publish:minor": "npm run publish:before && npm version minor && npm run publish:after",
+    "publish:patch": "npm run publish:before && npm version patch && npm run publish:after"
+  },
+  "ci": {
+    "version": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iixlabs/console-core-service-sherpa.git"
+  },
+  "author": "Dave Xiong",
+  "license": "MIT"
+}

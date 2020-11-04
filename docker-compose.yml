@@ -1,0 +1,43 @@
+version: '2.2'
+networks:
+  console-core:
+    driver: bridge
+services:
+  postgres:
+    image: postgres:latest
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: postgresql
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: platform
+      DB_HOSTNAME: postgres
+    volumes:
+      - ../../service_sherpa/postgres_db_data:/var/lib/postgresql/data:z
+    networks:
+      - console-core
+  dbadmin:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+    links:
+      - postgres
+    networks:
+      - console-core
+
+  # service-sherpa:
+  #   image: quay.io/consoleconnect/console_core_service_sherpa:latest
+  #   ports:
+  #     - 7001:7001
+  #   volumes:
+  #     - ./containers/sherpa.config.js:/opt/app/config/config.prod.js:rw,z
+  #   networks:
+  #     - console-core
+
+  # portal-sherpa:
+  #   image: quay.io/consoleconnect/console_core_portal_sherpa:latest
+  #   ports:
+  #     - 8080:8080
+  #   networks:
+  #     - console-core

@@ -1,0 +1,31 @@
+FROM quay.io/consoleconnect/nodejs_tests:10.13.0
+
+ARG UID=991
+ARG GID=991
+
+# If a user with the same GID/UID exists in the container
+# skip over this (i.e. let it fail but continue to build)
+RUN addgroup -S npm-tester -g $GID; \
+    adduser -S -G npm-tester -u $UID npm-tester || :
+
+RUN mkdir -p /opt/npm && chown -R $UID:$GID /opt/npm
+
+WORKDIR /opt/npm
+
+COPY .npmrc package.json ./
+
+RUN chown -R $UID:$GID /opt/npm && \
+    chmod 0600 /opt/npm/.npmrc && \
+    exec su-exec $UID npm install --ignore-scripts --ignore-engines --frozen-lockfile --userconfig=/opt/npm/.npmrc
+
+COPY . ./
+
+RUN echo `date -u +"%FT%T.000Z"` > release.txt
+
+# We want to chown everything that isn't pwd or the node_modules (since that takes forever to run chown over)
+RUN find . -not -iname 'node_modules' -not -iname '.' -maxdepth 1 -exec chown -R $UID:$GID '{}' \; && \
+    rm -rf /opt/npm/.npmrc
+
+USER $UID
+
+CMD ["/opt/npm/scripts/dockerTests.sh"]

@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:latest
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: postgresql
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: platform
+      DB_HOSTNAME: postgres
+    # volumes:
+    #   - ./containers/postgres_db_data:/var/lib/postgresql/data:rw,z
+    networks:
+      - console-core-tests
+  service-sherpa-tests:
+    image: console-core-service-sherpa-tests:latest
+    build:
+      context: ../../
+      dockerfile: Dockerfile.test
+      args:
+        - UID
+        - GID
+    environment:
+      NODE_ENV: unittest
+    links:
+      - postgres
+    volumes:
+      - ./coverage_temp:/opt/npm/coverage:rw,z
+    networks:
+      - console-core-tests
+
+networks:
+  console-core-tests:
+    driver: bridge

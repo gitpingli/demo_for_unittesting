@@ -1,0 +1,435 @@
+{
+  "auth": {
+    "authUrls": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "ignores": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "dnsCacheLookupInterval": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "dnsCacheMaxLength": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "request": {
+      "timeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    }
+  },
+  "bodyParser": {
+    "enableTypes": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "encoding": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "formLimit": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "textLimit": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "strict": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "depth": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "fileExtensions": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "autoFields": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "files": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+      "ignoreJSON": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+      "type": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "useSession": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "headerName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "queryName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "protocolWhiteList": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "value": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "value": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "value": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "policy": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "allowMethods": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js"
+  },
+  "jwt": {
+    "secret": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-jwt/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "dir": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-static/config/config.default.js",
+    "preload": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-static/config/config.default.js",
+    "buffer": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-static/config/config.default.js"
+  },
+  "logger": {
+    "outputJSON": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "level": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "consoleLevel": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "disableConsoleAfterReady": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "dir": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "encoding": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "env": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "buffer": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "appLogName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "coreLogName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "agentLogName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "errorLogName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "io": {
+    "init": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+        "packetMiddleware": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js"
+      }
+    }
+  },
+  "keys": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+  "middleware": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+  "swaggerdoc": {
+    "dirScanner": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "apiInfo": {
+      "title": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+      "description": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+      "version": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js"
+    },
+    "schemes": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "consumes": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "produces": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "routerMap": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "securityDefinitions": {
+      "Bearer": {
+        "type": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+        "name": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+        "in": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js"
+      }
+    },
+    "basePath": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/@console/egg-swagger-doc/config/config.default.js",
+    "enableSecurity": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/@console/egg-swagger-doc/config/config.default.js"
+  },
+  "service": {
+    "user": {
+      "enabled": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "url": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "timeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "tokenName": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "tokenBearer": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "tokenBearerEnabled": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+    },
+    "dm": {
+      "enabled": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "url": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "timeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+    },
+    "cpq": {
+      "enabled": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "url": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "timeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+    },
+    "oms": {
+      "enabled": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "url": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "timeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+    },
+    "workflow": {
+      "enabled": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "url": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "timeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+    },
+    "consoleconnect": {
+      "email": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "enabled": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "url": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+      "timeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+    }
+  },
+  "gateway": {
+    "adminUrl": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "apiUrl": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "token": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "orgId": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+  },
+  "influx": {
+    "url": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "bucket": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "token": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "org": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+  },
+  "sequelize": {
+    "dialect": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "database": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "host": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "port": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "username": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "password": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js",
+    "schema": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.local.js"
+  },
+  "qlc": {
+    "rpcUrl": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js",
+    "timeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-session/config/config.default.js",
+    "key": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-watcher/config/config.default.js",
+      "development": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-schedule/config/config.default.js",
+      "file": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-view/config/config.default.js",
+    "cache": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-view/config/config.default.js",
+    "mapping": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "name": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "cookies": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "proxy": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "version": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "description": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "private": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "standard": {
+      "globals": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "ignore": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@console/egg-swagger-doc": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "@influxdata/influxdb-client": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "async": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "@reportportal/agent-js-mocha": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "mocha": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "bignumber.js": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "blakejs": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-cors": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-jwt": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-logger": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-validate": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "lodash": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "mockjs": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "moment": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "pg": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "pg-hstore": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "qlc.js": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "socket.io": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "tweetnacl": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "uuid-random": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "autod-egg": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-bin": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-ci": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "egg-mock": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "eslint": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "factory-girl": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "mocha-junit-reporter": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "standard": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "stop": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "dev": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "debug": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "test": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "test2": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "test-local": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "cov": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "lint": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "ci": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "autod": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "db:migrate": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "publish:after": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "publish:before": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "publish:major": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "publish:minor": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "publish:patch": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "url": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    },
+    "author": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "license": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "HOME": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "rundir": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "notFound": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "sitefile": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "middlewares": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "httpClient": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "meta": {
+    "enable": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "logging": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "port": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+      "hostname": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/home/pingli/workspace/repository/pccw/demo/sherpa-api/console-core-service-sherpa/node_modules/egg/config/config.default.js"
+}
