@@ -27,14 +27,19 @@ const mochaMain = new Mocha({
     description: '',
     attributes: [
       {
-        key: 'Build',
-        value: 'Sherpa API'
+        key: 'build',
+        value: 'BUILD_NAME'
       },
       {
-        key: 'Version',
-        value: '1.0.1'
+        key: 'version',
+        value: 'BUILD_VERSION'
       },
       {
+        key: 'sprint',
+        value: 'PI-3'
+      },
+      {
+        key: 'type',
         value: 'Unit Testing'
       }
     ]
