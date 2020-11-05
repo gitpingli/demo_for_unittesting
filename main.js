@@ -22,7 +22,7 @@ const mochaMain = new Mocha({
   reporterOptions: {
     endpoint: 'http://127.0.0.1:8080/api/v1',
     token: '252148ac-b24a-46ff-953c-b9e2a4b8b919',
-    launch: 'Unit Testing',
+    launch: 'LAUNCH_NAME',
     project: 'TEST',
     description: '',
     attributes: [
@@ -36,7 +36,7 @@ const mochaMain = new Mocha({
       },
       {
         key: 'type',
-        value: 'LAUNCH_TYPE'
+        value: 'Unit Testing'
       }
     ]
   },
