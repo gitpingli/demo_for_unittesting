@@ -31,16 +31,12 @@ const mochaMain = new Mocha({
         value: 'BUILD_NAME'
       },
       {
-        key: 'version',
-        value: 'BUILD_VERSION'
-      },
-      {
         key: 'sprint',
         value: 'PI-3'
       },
       {
         key: 'type',
-        value: 'Unit Testing'
+        value: 'LAUNCH_TYPE'
       }
     ]
   },
